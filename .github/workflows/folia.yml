@@ -35,6 +35,7 @@ jobs:
           git config --global user.name "Your Name"
           cd Folia
           git checkout dev/1.20.2
+          git pull origin
           ./gradlew applyPatches
           ./gradlew createReobfPaperclipJar
 
